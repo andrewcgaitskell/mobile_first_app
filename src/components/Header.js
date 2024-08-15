@@ -12,7 +12,9 @@ const Header = () => {
         <Link to="/news">News</Link>
         <Link to="/faq">FAQ</Link>
         <Link to="/contact">Contact</Link>
-        <Link to={{ pathname: "https://google.com/" }} target="_blank">Google</Link>
+        <a href="https://google.com/" target="_blank" rel="noopener noreferrer">
+            Google
+          </a>
       </nav>
     </header>
   );
