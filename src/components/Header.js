@@ -9,7 +9,10 @@ const Header = () => {
       <nav className="nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/news">News</Link>
+        <Link to="/faq">FAQ</Link>
         <Link to="/contact">Contact</Link>
+        <Link to={{ pathname: "https://google.com/" }} target="_blank">Google</Link>
       </nav>
     </header>
   );
